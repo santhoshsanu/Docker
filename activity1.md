@@ -10,7 +10,11 @@ Docker Commands
  * to login to the mysql container, syntax is below
      docker exec -it <container_name_or_id> mysql -u <username> -p
 
-    
+ * to login to the running container, syntax is below
+     docker exec -it <container_name_or_id> /bin/bash
+
+*  /var/www/html/index.html --> this is the folder where default page is located
+
 
 
 * docker container ls
